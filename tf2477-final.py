@@ -21,6 +21,10 @@ def _1006_():
 def columbia():
     return render_template('classes.html')
 
+@app.route('/assignments')
+def assignments():
+    return render_template('assignments.html')
+
 
 
 if __name__ == '__main__':
