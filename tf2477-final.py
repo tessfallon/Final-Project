@@ -17,9 +17,10 @@ def Hello():
 def _1006_():
     return render_template('1006.html')
 
-@app.route('/columbia')
+@app.route('/classes')
 def columbia():
-    return "Columbia!!"
+    return render_template('classes.html')
+
 
 
 if __name__ == '__main__':
